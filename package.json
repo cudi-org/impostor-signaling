@@ -1,0 +1,16 @@
+{
+  "name": "el-impostor-server",
+  "version": "1.1.0",
+  "description": "Servidor de señalización para el juego El Impostor P2P",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "bcrypt": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
